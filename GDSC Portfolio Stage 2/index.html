@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Goel- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ea945d24b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="#home" class="navigation__myName">Rohan Goel</a>
+        <div class="hamburger">
+            <span class="hamburger__slice"></span>
+            <span class="hamburger__slice"></span>
+            <span class="hamburger__slice"></span>
+        </div>
+        <ul class="navigation__list">
+            <li class="navigation__list-item selected"><a href="#home" class="navigation__link">Home</a></li>
+            <li class="navigation__list-item"><a href="#hobbies" class="navigation__link">My Hobbies</a></li>
+            <li class="navigation__list-item"><a href="#skills" class="navigation__link">Skills</a></li>
+        </ul>
+    </nav>
+
+    <div class="home" id="home">
+        <div class="home__info">
+            <div class="home__text">
+                <h2 class="home__text--main">Hello!</h2>
+                <p class="home__text--secondary">
+                    My name is Rohan. I am a second-year Computer Engineering student at NSUT. 
+                    I am aiming to be a full-stack web developer. This is my first 
+                    portfolio! 
+                </p>
+            </div>
+
+            <div class="home__buttons">
+                <a href="#hobbies" class="home__button home__button--1">My Hobbies</a>
+                <a href="#skills" class="home__button home__button--2">Skills</a>
+            </div>
+        </div>
+        
+
+        <div class="home__imageDiv">
+            <img src="final.jpeg" alt="My Picture" class="home__image">
+        </div>
+    </div>
+
+    <div class="hobbies" id="hobbies">
+        <h2 class="hobbies__heading">
+            My Hobbies
+        </h2>
+        
+        <ul class="hobbies__list">
+            <li class="hobbies__list-item">
+                <i class="fas fa-code hobbies__icon"></i><br>
+                <span class="hobbies__text">Code</span>
+            </li>
+            <li class="hobbies__list-item">
+                <i class="far fa-futbol hobbies__icon"></i><br>
+                <span class="hobbies__text">Football</span>
+            </li>
+            <li class="hobbies__list-item">
+                <i class="fas fa-music hobbies__icon"></i><br>
+                <span class="hobbies__text">Piano</span>
+            </li>
+            <li class="hobbies__list-item">
+                <i class="fas fa-user-graduate hobbies__icon"></i><br>
+                <span class="hobbies__text">Learning</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="skills" id="skills">
+        <h2 class="skills__heading">Skills</h2>
+
+        <div class="skills__times">
+            <p class="skills__times-current selected-2">
+                Current
+            </p>
+            <p class="skills__times-withTimeAndExperience">
+                With Time and Experience
+            </p>
+        </div>
+        
+        <div class="skills__bars">
+            <p class="skills__text"><i class="fab fa-html5"></i>  HTML</p>
+            <div class="skills__bar">
+                <div class="fill fill--html" style="width: 31%"></div>
+            </div>
+
+            <p class="skills__text"><i class="fab fa-css3-alt"></i> CSS</p>
+            <div class="skills__bar">
+                <div class="fill fill--css" style="width: 38%"></div>
+            </div>
+
+            <p class="skills__text"><i class="fab fa-js-square"></i> JavaScript</p>
+            <div class="skills__bar">
+                <div class="fill fill--js" style="width: 37%"></div>
+            </div>
+
+            <p class="skills__text"><i class="fab fa-python"></i> Python</p>
+            <div class="skills__bar">
+                <div class="fill fill--python" style="width: 32%"></div>
+            </div>
+
+            <p class="skills__text"><i class="fab fa-cuttlefish"></i> C++</p>
+            <div class="skills__bar">
+                <div class="fill fill--cpp" style="width: 34%"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
